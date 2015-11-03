@@ -1,0 +1,19 @@
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body{
+	html &{
+		margin:0;
+		color: #fff;
+	}
+}
+ul, li{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+a{
+	text-decoration:none;
+}

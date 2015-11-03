@@ -1,0 +1,9 @@
+$primary-color:#ff0000;
+$secondary-color:#0000ff;
+$general-color:#fff;
+$post-color:desaturate(#c69, 20%);
+$background-color: #fff;
+$background:mix(#333, #aaa); //For Mixing To Color
+$anchor-color:complement($background); //For Oposit Color Color
+$text-color-lighten: lighten($anchor-color, 20%); //For lighten Color Color
+$text-color-draken: darken($anchor-color, 20%);	//For darken Color Color

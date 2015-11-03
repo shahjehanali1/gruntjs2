@@ -1,0 +1,892 @@
+/* line 1, ../../developement/scss/reset.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, ../../developement/scss/reset.scss */
+html body {
+  margin: 0;
+  color: #fff;
+}
+
+/* line 12, ../../developement/scss/reset.scss */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 17, ../../developement/scss/reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 1, ../../developement/scss/blog.scss */
+body {
+  background: #6e6e6e;
+}
+
+/* line 4, ../../developement/scss/blog.scss */
+.post {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  background: #fff;
+  padding: 20px;
+  margin: 5px;
+}
+/* line 9, ../../developement/scss/blog.scss */
+.post h2 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  color: #a1a1a1;
+}
+/* line 14, ../../developement/scss/blog.scss */
+.post p {
+  color: #b87a99;
+}
+/* line 17, ../../developement/scss/blog.scss */
+.post a {
+  font-size: 12px;
+  color: #3b3b3b;
+}
+/* line 21, ../../developement/scss/blog.scss */
+.post .date {
+  margin-bottom: 20px;
+  color: #0000ff;
+  display: block;
+}
+@media (max-width: 767px) {
+  /* line 4, ../../developement/scss/blog.scss */
+  .post {
+    background: #fff !important;
+    padding: 10px;
+  }
+  /* line 29, ../../developement/scss/blog.scss */
+  .post .date {
+    color: #a1a1a1;
+  }
+}
+
+/* line 38, ../../developement/scss/blog.scss */
+.postimg.browser {
+  background: url(../img/browser.png) no-repeat 0 0;
+  height: 100px;
+  width: 100px;
+  background-size: 100% auto;
+}
+@media (max-width: 767px) {
+  /* line 38, ../../developement/scss/blog.scss */
+  .postimg.browser {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* line 38, ../../developement/scss/blog.scss */
+.postimg.browsers {
+  background: url(../img/browsers.png) no-repeat 0 0;
+  height: 100px;
+  width: 100px;
+  background-size: 100% auto;
+}
+@media (max-width: 767px) {
+  /* line 38, ../../developement/scss/blog.scss */
+  .postimg.browsers {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* line 38, ../../developement/scss/blog.scss */
+.postimg.cloud {
+  background: url(../img/cloud.png) no-repeat 0 0;
+  height: 100px;
+  width: 100px;
+  background-size: 100% auto;
+}
+@media (max-width: 767px) {
+  /* line 38, ../../developement/scss/blog.scss */
+  .postimg.cloud {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* line 38, ../../developement/scss/blog.scss */
+.postimg.idea {
+  background: url(../img/idea.png) no-repeat 0 0;
+  height: 100px;
+  width: 100px;
+  background-size: 100% auto;
+}
+@media (max-width: 767px) {
+  /* line 38, ../../developement/scss/blog.scss */
+  .postimg.idea {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* line 50, ../../developement/scss/blog.scss */
+.post:nth-child(1) {
+  background: #f7f7f7;
+  margin: 10px auto;
+}
+
+/* line 50, ../../developement/scss/blog.scss */
+.post:nth-child(2) {
+  background: #f0f0f0;
+  margin: 10px auto;
+}
+
+/* line 50, ../../developement/scss/blog.scss */
+.post:nth-child(3) {
+  background: #e8e8e8;
+  margin: 10px auto;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(1) {
+  background: #fa0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(2) {
+  background: #f50000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(3) {
+  background: #f00000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(4) {
+  background: #eb0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(5) {
+  background: #e60000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(6) {
+  background: #e00000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(7) {
+  background: #db0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(8) {
+  background: #d60000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(9) {
+  background: #d10000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(10) {
+  background: #cc0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(11) {
+  background: #c70000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(12) {
+  background: #c20000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(13) {
+  background: #bd0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(14) {
+  background: #b80000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(15) {
+  background: #b30000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(16) {
+  background: #ad0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(17) {
+  background: #a80000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(18) {
+  background: #a30000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(19) {
+  background: #9e0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(20) {
+  background: #990000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(21) {
+  background: #940000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(22) {
+  background: #8f0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(23) {
+  background: #8a0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(24) {
+  background: #850000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(25) {
+  background: maroon;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(26) {
+  background: #7a0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(27) {
+  background: #750000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(28) {
+  background: #700000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(29) {
+  background: #6b0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(30) {
+  background: #660000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(31) {
+  background: #610000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(32) {
+  background: #5c0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(33) {
+  background: #570000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(34) {
+  background: #520000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(35) {
+  background: #4d0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(36) {
+  background: #470000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(37) {
+  background: #420000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(38) {
+  background: #3d0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(39) {
+  background: #380000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(40) {
+  background: #330000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(41) {
+  background: #2e0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(42) {
+  background: #290000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(43) {
+  background: #240000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(44) {
+  background: #1f0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(45) {
+  background: #1a0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(46) {
+  background: #140000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(47) {
+  background: #0f0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(48) {
+  background: #0a0000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(49) {
+  background: #050000;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(50) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(51) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(52) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(53) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(54) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(55) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(56) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(57) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(58) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(59) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(60) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(61) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(62) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(63) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(64) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(65) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(66) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(67) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(68) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(69) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(70) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(71) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(72) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(73) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(74) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(75) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(76) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(77) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(78) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(79) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(80) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(81) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(82) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(83) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(84) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(85) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(86) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(87) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(88) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(89) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(90) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(91) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(92) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(93) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(94) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(95) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(96) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(97) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(98) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(99) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 56, ../../developement/scss/blog.scss */
+.box:nth-child(100) {
+  background: black;
+  height: 10px;
+  width: 100%;
+}
+
+/* line 62, ../../developement/scss/blog.scss */
+a {
+  color: #6e6e6e;
+}
+
+/* line 7, ../../developement/scss/mixin.scss */
+.red {
+  color: red;
+  border: 1px solid #000;
+}
+
+/* line 7, ../../developement/scss/mixin.scss */
+.green {
+  color: green;
+}
+
+/* line 7, ../../developement/scss/mixin.scss */
+.orange {
+  color: orange;
+}
+
+/* line 68, ../../developement/scss/blog.scss */
+.post {
+  padding: 20px;
+  width: 701px;
+}
+@media (max-width: 1200px) {
+  /* line 68, ../../developement/scss/blog.scss */
+  .post {
+    padding: 10px;
+    width: 400px;
+  }
+}
+@media (max-width: 700px) {
+  /* line 68, ../../developement/scss/blog.scss */
+  .post {
+    padding: 5px;
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
