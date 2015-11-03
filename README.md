@@ -1,2 +1,2 @@
 # gruntjs2
-# Hello World
+# Grunt Compiler
